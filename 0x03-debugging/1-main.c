@@ -1,4 +1,5 @@
-lines (19 sloc)  247 Bytes
+#include <stdio.h>
+
 /**
  * main - causes an infinite loop
  * Return: 0
