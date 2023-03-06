@@ -1,23 +1,8 @@
-#include "main.h"
+#include <stdio.h>
+#include <string.h>
 
-/**
- * *_memset - Fills the first N bytes of the memory
- * of string S(pointer) with the constant byte of B
- * @s: A pointer to the memory area to be filled.
- * @b: The character to fill the memory area with.
- * @n: The number of bytes to be filled.
- *
- * Return: string @s, pointer to memory string s
- */
-
-char *_memset(char *s, char b, undigned int n)
-{
-	unsigned int i;
-
-	for (i = 0; i < n; i++)
-	{
-		s[i] = b;
-	}
-
-	return (s);
+int main() {
+    int arr[10];
+    memset(arr, 0, sizeof(arr)); // set all elements of arr to 0
+    return 0;
 }
