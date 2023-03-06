@@ -1,8 +1,20 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-char *_memset(char *s, char b, unsigned int n);
+/* This a header file containing declarations
+ * for prototype functions defined in the 0x07-more-functions_nested_loops
+ * tasks and directory
+ * This is like creating my own library with declared functions
+ * The tasks defines  the functions
+ *
+ *
+ * enclosing the files content inbetween ifndef,define and endif,
+ * stops the compiler from processing the file twice if its included twice,
+ * if not so, this will cause an error
+ * */
+
 int _putchar(char c);
+char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
